@@ -127,6 +127,7 @@ button.checkout {
   padding: 7px;
   border-radius: 5px;
   margin-bottom: 30px;
+  transition: all .3s ease-in-out;
 }
 
 button.checkout:hover {
