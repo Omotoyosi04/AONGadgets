@@ -218,7 +218,7 @@ section {
   display: flex;
   align-items: baseline;
   gap: 20px;
-  overflow-x: auto;
+  overflow-x: hidden;
   padding: 20px 0;
 }
 
@@ -244,6 +244,19 @@ section {
   border-radius: 50%;
   transition: all .3s ease-in-out;
 }
+
+/* .left:disabled, .right:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: #999;
+  color: #f8f9fa;
+  opacity: .5;
+}
+.left:disabled:hover,
+.right:disabled:hover {
+  background-color: #999;
+  color: #f8f9fa;
+} */
 
 .categories-list .list .icon-wrapper svg {
   height: 30px;
@@ -338,7 +351,7 @@ section {
   transition: all .3s ease-in-out;
 }
 
-.product-details svg:active #Vector {
+.product-details svg:hover, svg:active #Vector {
   fill: var(--primary-color);
 }
 
