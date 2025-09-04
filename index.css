@@ -716,9 +716,9 @@ svg:active #Vector {
     margin: -2% -8vw;
   }
 
-  /* .products::-webkit-scrollbar {
-    height: 20px;
-  } */
+  .products::-webkit-scrollbar {
+    height: 0;
+  }
 
   .deals-container {
     flex-direction: column;
