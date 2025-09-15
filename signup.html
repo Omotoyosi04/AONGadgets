@@ -17,18 +17,18 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/login.css">
-  <title>SIGN-IN PAGE</title>
+  <link rel="stylesheet" href="/signup.css">
+  <title>SIGN-UP PAGE</title>
 </head>
 
 <body>
-  <main class="sign-in">
+  <main class="sign-up">
     <div class="first">
       <h1>AON Gadgets</h1>
       <p>Affordable and quality gadgets.</p>
 
-      <button type="button" class="log-option">Sign In with Google</button>
-      <button type="button" class="log-option">Sign In with Email</button>
+      <button type="button" class="log-option">Sign Up with Google</button>
+      <button type="button" class="log-option">Sign Up with Email</button>
 
       <div class="divider">
         <hr>
@@ -36,6 +36,10 @@
         <hr>
       </div>
 
+      <div class="star">
+        <label for="name">Name: </label>
+        <input required type="text" id="name" placeholder="Enter your name">
+      </div>
       <div class="moon">
         <label for="email">Email: </label>
         <input required type="email" id="email" placeholder="Enter your email address">
@@ -44,11 +48,14 @@
         <label for="password">Password: </label>
         <input required type="password" id="password" placeholder="Enter your password">
       </div>
+      <div class="art">
+        <label for="password">Password Confirmation: </label>
+        <input required type="password" id="password" placeholder="Confirm your password">
+      </div>
 
-      <p class="forget"><a href="#">Forgot your password?</a></p>
 
-      <button type="submit" class="click">Sign In</button>
-      <p>Don't have an account yet? <a href="/signup.html">Sign Up for free</a></p>
+      <button type="submit" class="click">Sign Up</button>
+      <p>Already have an account? <a href="/login.html">Sign In</a></p>
     </div>
 
     <div class="second">
@@ -68,5 +75,3 @@
 </body>
 
 </html>
-
-<!-- Home for affordable gadgets. -->
